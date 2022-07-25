@@ -3,5 +3,37 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-  }
+    "amar-lib": {
+      "projectType": "library",
+      "root": "projects/amar-lib",
+      "sourceRoot": "projects/amar-lib/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "project": "projects/amar-lib/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/amar-lib/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "projects/amar-lib/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/amar-lib/src/test.ts",
+            "tsConfig": "projects/amar-lib/tsconfig.spec.json",
+            "karmaConfig": "projects/amar-lib/karma.conf.js"
+          }
+        }
+      }
+    }
+  },
+  "defaultProject": "amar-lib"
 }

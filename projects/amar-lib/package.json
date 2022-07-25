@@ -1,0 +1,30 @@
+{
+  "name": "amar-lib",
+  "version": "0.0.314",
+  "peerDependencies": {
+    "@angular/common": "^14.1.0",
+    "@angular/core": "^14.1.0", 
+    "@types/jquery": "^3.4.1",
+    "bootbox": "5.3.4",
+    "amar_package" : "1.0.35",
+    "bootstrap": "4.3.1",
+    "bootstrap-datepicker": "1.9.0",
+    "font-awesome": "4.7.0",
+    "jquery": "^3.4.1",
+    "jquery-blockui": "2.7.0",
+    "jquery-ui-dist": "1.12.1",
+    "jquery-validation": "^1.19.1",
+    "jquery-validation-unobtrusive": "^3.2.11",
+    "knockout": "3.5.0",
+    "@types/knockout": "^3.4.72",
+    "knockout-mapping": "2.6.0",
+    "knockout-sortable": "1.1.0",
+    "knockout-x-editable": "0.1.2",
+    "select2": "4.0.12",
+    "toastr": "2.1.4",
+    "x-editable-bs4": "1.5.4"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  }
+}

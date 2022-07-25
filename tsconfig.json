@@ -2,6 +2,13 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
+    "paths": {
+      "amar-lib": [
+        "dist/amar-lib/amar-lib",
+        "dist/amar-lib"
+      ]
+    },
+    "strictPropertyInitialization" : false,
     "baseUrl": "./",
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
