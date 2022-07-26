@@ -1,19 +1,18 @@
 import { InjectionToken, ModuleWithProviders, NgModule } from '@angular/core';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { DotNetReportComponent } from './dot-net-report.component';
 import { BASE_URL_TOKEN } from './amar_lib.di';
-
+import { DotnetreportComponent } from './dotnetreport.component';
 
 
 @NgModule({
   declarations: [
-    DotNetReportComponent,
+    DotnetreportComponent,
   ],
   imports: [
     BrowserAnimationsModule
   ],
   exports: [
-    DotNetReportComponent,
+    DotnetreportComponent,
   ]
 })
 export class AmarLibModule {

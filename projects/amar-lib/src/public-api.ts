@@ -4,5 +4,5 @@
 
 export * from './lib/amar-lib.service';
 export * from './lib/amar-lib.module';
-export * from './lib/dot-net-report.component';
+export * from './lib/dotnetreport.component';
 
